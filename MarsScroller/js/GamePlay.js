@@ -83,7 +83,7 @@ GamePlay.prototype = {
 		}
 
 		// Every tick there is a 1 percent chance that an asteroid will spawn
-		if (Math.random() * 100 < 1){
+		if (Math.random() * 100 < 2){
 			//Spawn an asteroid
 			spawnAsteroid();
 		}
